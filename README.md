@@ -2,18 +2,18 @@
 ## Find the shortest path between two coordinates in CORK CITY
 
 ## Files Needed
--  [ ] Edge.py
-- APQ.py
-- Element.py
-- Vertex.py
-- Graph.py
-- Routemap.py
+- [x] Edge.py
+- [x] APQ.py
+- [x] Element.py
+- [x] Vertex.py
+- [x] Graph.py
+- [x] Routemap.py
 
 
 ##### Test Files
-- simplegraph1.txt
-- simplegraph2.txt
-- corkCityData.txt
+- [ ] simplegraph1.txt
+- [ ] simplegraph2.txt
+- [ ] corkCityData.txt
 
 
 
