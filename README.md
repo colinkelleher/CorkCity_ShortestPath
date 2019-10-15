@@ -11,9 +11,9 @@
 
 
 ##### Test Files
-- [ ] simplegraph1.txt
-- [ ] simplegraph2.txt
-- [ ] corkCityData.txt
+- [x] simplegraph1.txt
+- [x] simplegraph2.txt
+- [x] corkCityData.txt
 
 
 
