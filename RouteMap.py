@@ -1,12 +1,11 @@
 # *********************************************************
-# COLIN KELLEHER 117303363
-# ASSIGNMENT 2 - CS2516
+# COLIN KELLEHER
 # *********************************************************
 from APQ import *
 from Vertex import *
 from Edge import *
 # *********************************************************
-# Class RouteMap - As per Assignment
+# Class RouteMap
 # *********************************************************
 
 
@@ -121,7 +120,7 @@ class RouteMap:
         return len(self._structure[v])
 
 # *********************************************************
-# # add_vertex
+# add_vertex
 # Add a new vertex with data
 # if vertex already exists with same data
 # a new vertex instance will be created
@@ -175,28 +174,6 @@ class RouteMap:
 
 # *********************************************************
 # Dijkstra's Algorithm
-# from pseudocode
-    # find all the shortest paths from s
-    # locs is an empty dictionary ( keys are vertices, values are location in open)
-    # preds starts as a dictionary with value for s = None
-    # add s with key 0 to open
-    # add s: element to locs
-    # while open is not empty
-    # remove the min element from open
-    # remove the entry for vertex from locs & preds
-    # add an entry for v :(cost, predecessor) into closed
-    # for each edge e from v
-    # w is the opposite vertex to v in e
-    # if w is not in closed
-    # newcost is v's key plus e's cost
-    # if w is not in locs
-    # add w:v to preds,
-    # add w:newcost to open
-    # add w:(elt returned from open) to locs
-    # else if newcost is better than w's oldcost
-    # update w:v in preds
-    #  update w's cost in open to newcost
-    # return closed
 # *********************************************************
     def dijkstra(self, s): # s is starting position to find all the shortests paths from
         open = APQ() # open stars as an empty APQ
@@ -263,7 +240,7 @@ class RouteMap:
 # index._element = element
 # value [1] = cost
 # *********************************************************
-# Graph reader - AS GIVEN IN ASSIGNMENT
+# Graph reader
 # for reading and returning the route map
 # *********************************************************
 
@@ -298,7 +275,7 @@ def graphreader(filename):
 
 
 # *********************************************************
-# TEST DATA - AS GIVEN IN ASSIGNMENT
+# TEST DATA 
 # *********************************************************
 
 def test():
